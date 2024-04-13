@@ -631,11 +631,13 @@ h1 > span {
 .projects__picture {
   display: block;
   margin-block-end: 20px;
+  border-radius: 10px;
 }
 
 .projects__image {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 .projects__name {
@@ -729,10 +731,12 @@ h1 > span {
     background-color: hsl(0, 0%, 0%);
     opacity: 0;
     transition: opacity 150ms ease-in-out;
+    border-radius: 10px;
   }
 
   .projects__item:hover .projects__picture::after {
     opacity: 0.5;
+    border-radius: 10px;
   }
 
   .projects__item:hover .projects__links {
@@ -744,11 +748,13 @@ h1 > span {
 
   .projects__item:focus-within .projects__picture::after {
     opacity: 0.5;
+    border-radius: 10px;
   }
 
   .projects__image {
     width: 100%;
     height: auto;
+    border-radius: 10px;
   }
 
   .projects__links {
@@ -763,6 +769,7 @@ h1 > span {
 
   .projects__links:hover ~ .projects__picture::after {
     opacity: 0.5;
+    border-radius: 10px;
   }
 
   .projects__tags {
